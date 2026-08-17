@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Averon Tech</title>
+    <meta name="description" content="Averon is a creative studio crafting premium digital experiences.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Syne:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Liquid Glass Background -->
+    <div class="liquid-glass-bg-container">
+        <div class="liquid-glass-blob"></div>
+        <div class="liquid-glass-overlay"></div>
+    </div>
+
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo-container">
+                <img src="assets/images/logo.png" alt="Averon Logo" class="nav-logo-img">
+                <div class="logo">AVERON</div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="projects/index.html" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="hero" class="hero">
+            <div class="hero-video-overlay"></div>
+            <canvas id="particles-canvas"></canvas>
+            <div class="hero-content">
+                <h1 class="hero-title">We Craft Digital Excellence</h1>
+                <p class="hero-subtitle reveal">Award-winning design & development studio turning complex problems into
+                    elegant solutions.</p>
+                <a href="projects/index.html" class="cta-button reveal delay-1">Explore Our Work</a>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Video Background Wrapper for all content sections -->
+        <div class="sections-video-wrapper">
+            <div class="sections-video-overlay"></div>
+
+            <!-- Trusted Partners Logo Strip -->
+            <section class="partners section-padding animate-reveal" style="padding: 4rem 0 2rem;">
+                <div class="container">
+                    <p class="partners-title">TRUSTED BY NEXT-GEN STARTUPS & ENTERPRISES</p>
+                    <div class="partners-grid">
+                        <div class="partner-logo"><span>AETHER</span></div>
+                        <div class="partner-logo"><span>KINETIC</span></div>
+                        <div class="partner-logo"><span>VERTEX</span></div>
+                        <div class="partner-logo"><span>NEXUS</span></div>
+                        <div class="partner-logo"><span>OCTANE</span></div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="about" class="about section-padding">
+                <div class="container">
+                    <div class="section-header reveal">
+                        <h2 class="section-title">Who We Are</h2>
+                        <div class="line"></div>
+                    </div>
+                    <div class="about-grid">
+                        <div class="about-text reveal delay-1">
+                            <p>At Averon, we don't just build websites; we engineer digital experiences that resonate.
+                                Our
+                                multidisciplinary team combines strategic thinking, cutting-edge technology, and
+                                stunning
+                                aesthetics to elevate brands in the digital space.</p>
+                            <p class="highlight">Innovation is our baseline. Excellence is our standard.</p>
+                        </div>
+                        <div class="about-stats">
+                            <div class="stat-item reveal delay-2">
+                                <h3 class="stat-number" data-target="2">0</h3>
+                                <p class="stat-label">Projects Delivered</p>
+                            </div>
+                            <div class="stat-item reveal delay-3">
+                                <h3 class="stat-number" data-target="100" data-suffix="%">100%</h3>
+                                <p class="stat-label">Client Satisfaction</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="services" class="services section-padding">
+                <div class="container">
+                    <div class="section-header reveal">
+                        <h2 class="section-title">Our Expertise</h2>
+                        <div class="line"></div>
+                    </div>
+                    <div class="services-grid">
+                        <div class="service-card reveal">
+                            <div class="service-icon">✦</div>
+                            <h3>Digital Strategy</h3>
+                            <p>Comprehensive research and planning to position your brand for sustainable growth and
+                                market
+                                leadership.</p>
+                        </div>
+                        <div class="service-card reveal delay-1">
+                            <div class="service-icon">⬡</div>
+                            <h3>UX/UI Design</h3>
+                            <p>Intuitive, user-centric interfaces that not only look beautiful but drive engagement and
+                                conversions.</p>
+                        </div>
+                        <div class="service-card reveal delay-2">
+                            <div class="service-icon">⟡</div>
+                            <h3>Web Development</h3>
+                            <p>Robust, scalable, and high-performance applications built with modern frameworks and best
+                                practices.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="process" class="process section-padding">
+                <div class="container">
+
+                    <div class="section-header reveal">
+                        <h2 class="section-title">Our Process</h2>
+                        <div class="line"></div>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-item reveal">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>01. Discovery</h3>
+                                <p>We immerse ourselves in your brand, understanding your goals, audience, and
+                                    challenges.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item reveal delay-1">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>02. Design</h3>
+                                <p>Crafting intuitive and visually stunning interfaces that bring your vision to life.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline-item reveal delay-2">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>03. Build</h3>
+                                <p>Translating designs into clean, performant, and scalable code.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item reveal delay-3">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h3>04. Launch</h3>
+                                <p>Rigorous testing and seamless deployment to ensure a flawless user experience.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact Section -->
+            <section id="contact" class="contact section-padding">
+                <div class="container">
+                    <div class="section-header reveal">
+                        <h2 class="section-title">Let's Create Together</h2>
+                        <div class="line"></div>
+                    </div>
+                    <div class="contact-grid">
+                        <div class="contact-card reveal">
+                            <h3>Have a project in mind?</h3>
+                            <p>Get in touch and let's discuss how we can turn your vision into reality. We typically respond within 24 hours.</p>
+                            <div class="contact-info">
+                                <p style="margin-bottom: 0.5rem;">Email: <a href="mailto:hello@averon.tech" class="email-link">hello@averon.tech</a></p>
+                                <p>Location: New York / Remote</p>
+                            </div>
+                        </div>
+                        <form id="contact-form" class="contact-form reveal delay-1" onsubmit="event.preventDefault(); alert('Message sent successfully!'); this.reset();">
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Name" required class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email" required class="form-input">
+                            </div>
+                            <div class="form-group">
+                                <textarea placeholder="Tell us about your project" rows="5" required class="form-input"></textarea>
+                            </div>
+                            <button type="submit" class="cta-button" style="align-self: flex-start;">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </div><!-- end .sections-video-wrapper -->
+    </main>
+
+    <footer>
+        <div class="container footer-content">
+            <div class="logo-container">
+                <img src="assets/images/logo.png" alt="Averon Logo" class="nav-logo-img">
+                <div class="logo">AVERON</div>
+            </div>
+            <div class="social-links">
+                <a href="#">Twitter</a>
+                <a href="#">LinkedIn</a>
+                <a href="#">Dribbble</a>
+                <a href="#">Instagram</a>
+            </div>
+            <p class="copyright">&copy; 2026 Averon Tech. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script type="module" src="assets/js/main.js"></script>
+</body>
+
+</html>
